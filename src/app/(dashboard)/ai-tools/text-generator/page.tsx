@@ -173,7 +173,7 @@ export default function TextGeneratorPage() {
               <div className="h-full flex flex-col items-center justify-center text-center text-gray-500">
                 <FileText className="h-16 w-16 mb-4" />
                 <p>在此处查看您生成的文本</p>
-                <p className="text-sm">输入提示词并点击"开始生成"</p>
+                <p className="text-sm">输入提示词并点击&ldquo;开始生成&rdquo;</p>
               </div>
             )}
             

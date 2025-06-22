@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+// useState removed as it's not used in this component
 import Link from 'next/link';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';

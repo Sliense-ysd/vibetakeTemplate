@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { MotionCard } from '@/components/ui/motion-card';
 import { Button } from '@/components/ui/button'; // Assuming Button component exists
 import { Textarea } from '@/components/ui/textarea'; // Assuming Textarea component exists
@@ -140,7 +139,7 @@ export default function ImageGeneratorPage() {
             <div className="text-center text-gray-500">
               <ImageIcon className="mx-auto h-16 w-16 mb-4" />
               <p>在此处查看您生成的图像</p>
-              <p className="text-sm">输入提示词并点击"开始生成"</p>
+              <p className="text-sm">输入提示词并点击&ldquo;开始生成&rdquo;</p>
             </div>
           )}
           {!isLoading && error && (
